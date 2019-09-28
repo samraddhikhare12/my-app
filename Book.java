@@ -13,5 +13,9 @@ class Book{
 		   return bookId;
 	   }
 	    
-	   
+	   public String setname(String name)
+	   {
+		   this.name=name;
+		   System.out.println("this is my book");
+	   }
 	   
